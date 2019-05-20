@@ -9,3 +9,6 @@ declare module 'SCSSModule' {
 declare module './serviceWorker' {
   declare module.exports: any;
 }
+declare module 'primereact/button' {
+  declare module.exports: any;
+}
