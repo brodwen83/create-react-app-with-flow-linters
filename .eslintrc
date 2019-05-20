@@ -6,6 +6,10 @@
     "node": true
   },
   "rules": {
+    "no-unused-vars": [
+      "error",
+      { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }
+    ],
     "react/jsx-filename-extension": "off",
     "import/prefer-default-export": 1,
     "react/destructuring-assignment": "off",
