@@ -12,7 +12,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "flow": "flow"
+    "flow": "flow focus-check",
+    "lint": "eslint",
+    "eslint": "eslint --fix",
+    "prettier": "prettier",
+    "fmt": "prettier --config .prettierrc.yml --write \"{!(node_modules),!(__mock__)/**/}*.{jsx,js,json,md,ts}\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,7 +34,10 @@
     ]
   },
   "devDependencies": {
-    "flow-bin": "^0.93.0"
+    "flow-bin": "^0.93.0",
+    "husky": "^2.3.0",
+    "lint-staged": "^8.1.7",
+    "prettier": "^1.17.1"
   },
   "lint-staged": {
     "*.{js,jsx}": [

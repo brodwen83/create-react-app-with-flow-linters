@@ -1,11 +1,11 @@
-declare module "CSSModule" {
+declare module 'CSSModule' {
   declare var exports: { [key: string]: string };
 }
 
-declare module "SCSSModule" {
+declare module 'SCSSModule' {
   declare var exports: { [key: string]: string };
 }
 
-declare module "./serviceWorker" {
+declare module './serviceWorker' {
   declare module.exports: any;
 }
