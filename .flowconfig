@@ -5,9 +5,9 @@ unclear-type
 ; We fork some components by platform
 .*/*[.]android.js
 <PROJECT_ROOT>/coverage/
-.*/src/serviceWorker.js
-.*/src/App.test.js
-
+<PROJECT_ROOT>/src/serviceWorker.js
+<PROJECT_ROOT>/src/App.test.js
+<PROJECT_ROOT>/public/.*
 ; Ignore mock files for now until I could rewrite it
 <PROJECT_ROOT>/__mock__/.*
 <PROJECT_ROOT>/__tests__/.*
